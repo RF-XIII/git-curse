@@ -1,5 +1,5 @@
 section .data
-msg db '97',"Hola Mundo!",0xa,0x0d
+msg db '97',"Hola Mundo!",0xa,0x0d //mensaje a mostrar en pantalla 
 len equ $-msg
 
 section .text
